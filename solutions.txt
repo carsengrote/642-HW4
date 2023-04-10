@@ -1,0 +1,61 @@
+Trace 1
+
+Part A
+
+205.251.242.54 -- amazon.com 
+198.105.251.25 -- bing.com
+50.93.210.4 -- madisonproperty.com
+
+Part B
+
+Query: adventures in Stochastic Processes 
+Domain: amazon.com 
+
+Query: madison map
+Domain: bing.com 
+
+Query: chicago metro
+Domain: bing.com
+
+
+Trace 2
+
+User: shiningmoon
+Password: public
+
+Downloaded Files: dragon.zip, ARP.java, L2Switch.java, phase1.html
+
+Other Files: /jerry5tests.zip, /TeNet/testcase.111123.zip
+
+
+Trace 3
+
+Traceroute attempts to construct the exact routing path a packet takes to reach a machine connected to the internet.  It does so
+by initially sending a UDP packet with a ttl of 1 hop, and listening for the time exceeded response from the last router that the 
+packet arrived at before exceeding it's number of hops.  The ttl is increased by 1 hop each time which fingerprints the path of routers
+that the packet takes to get to the destination.  Once the ttl is large enough such that the destination IP is reached, the port 
+unreachable message is sent back, indicating the packet made it to the destination.  Replies to the sender are sent via ICMP protocol.
+
+src: 192.l168.0.100
+dst: 74.125.225.46
+
+Addresses on route: 192.168.0.1 - 10.131.180.1 - 96.34.20.20 - 96.34.17.95 - 96.34.16.112 - 96.34.16.77 - 96.34.2.4
+96.34.0.7 - 96.34.0.9 - 96.34.3.9 - 96.34.152.30 - 209.85.254.120 - 209.85.250.28 - 74.125.225.46
+
+
+Trace 4
+
+username: cs155@dummymail.com
+password: whitehat
+
+Number of messages in mailbox: 5
+
+Email subject: geology rocks!
+To: cs155@dummymail.com
+From: hariny <harinym@stanford.edu>
+Date: Fri, April 23 2010 08:22:29
+Content: smtp is also cool 
+
+The user is using Windows 2009 OS, and Thunderbird 2.0.0.23 email client to send / receive mail. 
+
+
